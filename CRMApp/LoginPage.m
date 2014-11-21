@@ -28,13 +28,13 @@ static NSString *KEY_U = @"USERNAME";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 90)];
-    username.leftView = paddingView;
-    username.leftViewMode = UITextFieldViewModeAlways;
-    
-    UIView *paddingView2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 90)];
-    password.leftView = paddingView2;
-    password.leftViewMode = UITextFieldViewModeAlways;
+//    UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 90)];
+//    username.leftView = paddingView;
+//    username.leftViewMode = UITextFieldViewModeAlways;
+//    
+//    UIView *paddingView2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 90)];
+//    password.leftView = paddingView2;
+//    password.leftViewMode = UITextFieldViewModeAlways;
     
     NSString *x = [[NSUserDefaults standardUserDefaults] objectForKey:KEY_U];
     if (x) {

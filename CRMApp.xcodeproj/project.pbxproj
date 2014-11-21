@@ -536,6 +536,7 @@
 				181EA6701A1FAA68009E77E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181EA6711A1FAA68009E77E8 /* Build configuration list for PBXNativeTarget "CRMAppTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				181EA6731A1FAA68009E77E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
