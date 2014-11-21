@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181EA64E1A1FAA68009E77E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA64D1A1FAA68009E77E8 /* main.m */; };
+		181EA6511A1FAA68009E77E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6501A1FAA68009E77E8 /* AppDelegate.m */; };
+		181EA65A1A1FAA68009E77E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181EA6581A1FAA68009E77E8 /* Main.storyboard */; };
+		181EA65C1A1FAA68009E77E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181EA65B1A1FAA68009E77E8 /* Images.xcassets */; };
+		181EA65F1A1FAA68009E77E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181EA65D1A1FAA68009E77E8 /* LaunchScreen.xib */; };
+		181EA66B1A1FAA68009E77E8 /* CRMAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA66A1A1FAA68009E77E8 /* CRMAppTests.m */; };
+		181EA6781A1FADC4009E77E8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6741A1FADC4009E77E8 /* Bolts.framework */; };
+		181EA6791A1FADC4009E77E8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6751A1FADC4009E77E8 /* Parse.framework */; };
+		181EA67A1A1FADC4009E77E8 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6761A1FADC4009E77E8 /* ParseFacebookUtils.framework */; };
+		181EA67B1A1FADC4009E77E8 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6771A1FADC4009E77E8 /* ParseUI.framework */; };
+		181EA6811A1FB28C009E77E8 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6801A1FB28C009E77E8 /* LoginPage.m */; };
+		181EA6831A1FB430009E77E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6821A1FB430009E77E8 /* AudioToolbox.framework */; };
+		181EA6851A1FB43F009E77E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6841A1FB43F009E77E8 /* CoreGraphics.framework */; };
+		181EA6871A1FB447009E77E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6861A1FB447009E77E8 /* CFNetwork.framework */; };
+		181EA6891A1FB44E009E77E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6881A1FB44E009E77E8 /* CoreLocation.framework */; };
+		181EA68B1A1FB457009E77E8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA68A1A1FB457009E77E8 /* libz.dylib */; };
+		181EA68D1A1FB45E009E77E8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA68C1A1FB45E009E77E8 /* MobileCoreServices.framework */; };
+		181EA68F1A1FB463009E77E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA68E1A1FB463009E77E8 /* QuartzCore.framework */; };
+		181EA6911A1FB468009E77E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6901A1FB468009E77E8 /* Security.framework */; };
+		181EA6931A1FB46E009E77E8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6921A1FB46E009E77E8 /* StoreKit.framework */; };
+		181EA6951A1FB476009E77E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EA6941A1FB476009E77E8 /* SystemConfiguration.framework */; };
+		181EA6A01A1FBE52009E77E8 /* x1.png in Resources */ = {isa = PBXBuildFile; fileRef = 181EA69D1A1FBE52009E77E8 /* x1.png */; };
+		181EA6A11A1FBE52009E77E8 /* x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 181EA69E1A1FBE52009E77E8 /* x2.png */; };
+		181EA6A21A1FBE52009E77E8 /* x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 181EA69F1A1FBE52009E77E8 /* x3.png */; };
+		181EA6A61A1FC65D009E77E8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6A51A1FC65D009E77E8 /* UIView+Toast.m */; };
+		181EA6A91A1FCCA2009E77E8 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6A81A1FCCA1009E77E8 /* HomePage.m */; };
+		181EA6AC1A1FD5DA009E77E8 /* NewVisitPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6AB1A1FD5DA009E77E8 /* NewVisitPage.m */; };
+		181EA6AF1A1FE858009E77E8 /* UITableView+NXEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA6AE1A1FE858009E77E8 /* UITableView+NXEmptyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181EA6651A1FAA68009E77E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181EA6401A1FAA68009E77E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181EA6471A1FAA68009E77E8;
+			remoteInfo = CRMApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181EA6481A1FAA68009E77E8 /* CRMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181EA64C1A1FAA68009E77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181EA64D1A1FAA68009E77E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181EA64F1A1FAA68009E77E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181EA6501A1FAA68009E77E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181EA6591A1FAA68009E77E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181EA65B1A1FAA68009E77E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181EA65E1A1FAA68009E77E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		181EA6641A1FAA68009E77E8 /* CRMAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181EA6691A1FAA68009E77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181EA66A1A1FAA68009E77E8 /* CRMAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMAppTests.m; sourceTree = "<group>"; };
+		181EA6741A1FADC4009E77E8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../../Downloads/parse-library-1.5.0/Bolts.framework"; sourceTree = "<group>"; };
+		181EA6751A1FADC4009E77E8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../../../Downloads/parse-library-1.5.0/Parse.framework"; sourceTree = "<group>"; };
+		181EA6761A1FADC4009E77E8 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../../../../Downloads/parse-library-1.5.0/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		181EA6771A1FADC4009E77E8 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../../../../Downloads/parse-library-1.5.0/ParseUI.framework"; sourceTree = "<group>"; };
+		181EA67F1A1FB28C009E77E8 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		181EA6801A1FB28C009E77E8 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		181EA6821A1FB430009E77E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		181EA6841A1FB43F009E77E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181EA6861A1FB447009E77E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		181EA6881A1FB44E009E77E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		181EA68A1A1FB457009E77E8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		181EA68C1A1FB45E009E77E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		181EA68E1A1FB463009E77E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		181EA6901A1FB468009E77E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		181EA6921A1FB46E009E77E8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		181EA6941A1FB476009E77E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		181EA69D1A1FBE52009E77E8 /* x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x1.png; path = "/Users/apple/Desktop/Sync/wl/ios code/working/CRMApp/CRMApp/x1.png"; sourceTree = "<absolute>"; };
+		181EA69E1A1FBE52009E77E8 /* x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x2.png; sourceTree = "<group>"; };
+		181EA69F1A1FBE52009E77E8 /* x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x3.png; sourceTree = "<group>"; };
+		181EA6A41A1FC65D009E77E8 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		181EA6A51A1FC65D009E77E8 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		181EA6A71A1FCCA1009E77E8 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		181EA6A81A1FCCA1009E77E8 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		181EA6AA1A1FD5DA009E77E8 /* NewVisitPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVisitPage.h; sourceTree = "<group>"; };
+		181EA6AB1A1FD5DA009E77E8 /* NewVisitPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVisitPage.m; sourceTree = "<group>"; };
+		181EA6AD1A1FE858009E77E8 /* UITableView+NXEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NXEmptyView.h"; sourceTree = "<group>"; };
+		181EA6AE1A1FE858009E77E8 /* UITableView+NXEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NXEmptyView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181EA6451A1FAA68009E77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181EA6951A1FB476009E77E8 /* SystemConfiguration.framework in Frameworks */,
+				181EA6931A1FB46E009E77E8 /* StoreKit.framework in Frameworks */,
+				181EA6911A1FB468009E77E8 /* Security.framework in Frameworks */,
+				181EA68F1A1FB463009E77E8 /* QuartzCore.framework in Frameworks */,
+				181EA68D1A1FB45E009E77E8 /* MobileCoreServices.framework in Frameworks */,
+				181EA68B1A1FB457009E77E8 /* libz.dylib in Frameworks */,
+				181EA6891A1FB44E009E77E8 /* CoreLocation.framework in Frameworks */,
+				181EA6871A1FB447009E77E8 /* CFNetwork.framework in Frameworks */,
+				181EA6851A1FB43F009E77E8 /* CoreGraphics.framework in Frameworks */,
+				181EA6831A1FB430009E77E8 /* AudioToolbox.framework in Frameworks */,
+				181EA6781A1FADC4009E77E8 /* Bolts.framework in Frameworks */,
+				181EA6791A1FADC4009E77E8 /* Parse.framework in Frameworks */,
+				181EA67A1A1FADC4009E77E8 /* ParseFacebookUtils.framework in Frameworks */,
+				181EA67B1A1FADC4009E77E8 /* ParseUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181EA6611A1FAA68009E77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181EA63F1A1FAA68009E77E8 = {
+			isa = PBXGroup;
+			children = (
+				181EA6941A1FB476009E77E8 /* SystemConfiguration.framework */,
+				181EA6921A1FB46E009E77E8 /* StoreKit.framework */,
+				181EA6901A1FB468009E77E8 /* Security.framework */,
+				181EA68E1A1FB463009E77E8 /* QuartzCore.framework */,
+				181EA68C1A1FB45E009E77E8 /* MobileCoreServices.framework */,
+				181EA68A1A1FB457009E77E8 /* libz.dylib */,
+				181EA6881A1FB44E009E77E8 /* CoreLocation.framework */,
+				181EA6861A1FB447009E77E8 /* CFNetwork.framework */,
+				181EA6841A1FB43F009E77E8 /* CoreGraphics.framework */,
+				181EA6821A1FB430009E77E8 /* AudioToolbox.framework */,
+				181EA6741A1FADC4009E77E8 /* Bolts.framework */,
+				181EA6751A1FADC4009E77E8 /* Parse.framework */,
+				181EA6761A1FADC4009E77E8 /* ParseFacebookUtils.framework */,
+				181EA6771A1FADC4009E77E8 /* ParseUI.framework */,
+				181EA64A1A1FAA68009E77E8 /* CRMApp */,
+				181EA6671A1FAA68009E77E8 /* CRMAppTests */,
+				181EA6491A1FAA68009E77E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181EA6491A1FAA68009E77E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181EA6481A1FAA68009E77E8 /* CRMApp.app */,
+				181EA6641A1FAA68009E77E8 /* CRMAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181EA64A1A1FAA68009E77E8 /* CRMApp */ = {
+			isa = PBXGroup;
+			children = (
+				181EA6A31A1FC654009E77E8 /* third party */,
+				181EA6961A1FBDDD009E77E8 /* images */,
+				181EA64F1A1FAA68009E77E8 /* AppDelegate.h */,
+				181EA6501A1FAA68009E77E8 /* AppDelegate.m */,
+				181EA67F1A1FB28C009E77E8 /* LoginPage.h */,
+				181EA6801A1FB28C009E77E8 /* LoginPage.m */,
+				181EA6A71A1FCCA1009E77E8 /* HomePage.h */,
+				181EA6A81A1FCCA1009E77E8 /* HomePage.m */,
+				181EA6AA1A1FD5DA009E77E8 /* NewVisitPage.h */,
+				181EA6AB1A1FD5DA009E77E8 /* NewVisitPage.m */,
+				181EA6581A1FAA68009E77E8 /* Main.storyboard */,
+				181EA65B1A1FAA68009E77E8 /* Images.xcassets */,
+				181EA65D1A1FAA68009E77E8 /* LaunchScreen.xib */,
+				181EA64B1A1FAA68009E77E8 /* Supporting Files */,
+			);
+			path = CRMApp;
+			sourceTree = "<group>";
+		};
+		181EA64B1A1FAA68009E77E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181EA64C1A1FAA68009E77E8 /* Info.plist */,
+				181EA64D1A1FAA68009E77E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181EA6671A1FAA68009E77E8 /* CRMAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				181EA66A1A1FAA68009E77E8 /* CRMAppTests.m */,
+				181EA6681A1FAA68009E77E8 /* Supporting Files */,
+			);
+			path = CRMAppTests;
+			sourceTree = "<group>";
+		};
+		181EA6681A1FAA68009E77E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181EA6691A1FAA68009E77E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181EA6961A1FBDDD009E77E8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				181EA69D1A1FBE52009E77E8 /* x1.png */,
+				181EA69E1A1FBE52009E77E8 /* x2.png */,
+				181EA69F1A1FBE52009E77E8 /* x3.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		181EA6A31A1FC654009E77E8 /* third party */ = {
+			isa = PBXGroup;
+			children = (
+				181EA6A41A1FC65D009E77E8 /* UIView+Toast.h */,
+				181EA6A51A1FC65D009E77E8 /* UIView+Toast.m */,
+				181EA6AD1A1FE858009E77E8 /* UITableView+NXEmptyView.h */,
+				181EA6AE1A1FE858009E77E8 /* UITableView+NXEmptyView.m */,
+			);
+			name = "third party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181EA6471A1FAA68009E77E8 /* CRMApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181EA66E1A1FAA68009E77E8 /* Build configuration list for PBXNativeTarget "CRMApp" */;
+			buildPhases = (
+				181EA6441A1FAA68009E77E8 /* Sources */,
+				181EA6451A1FAA68009E77E8 /* Frameworks */,
+				181EA6461A1FAA68009E77E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRMApp;
+			productName = CRMApp;
+			productReference = 181EA6481A1FAA68009E77E8 /* CRMApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181EA6631A1FAA68009E77E8 /* CRMAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181EA6711A1FAA68009E77E8 /* Build configuration list for PBXNativeTarget "CRMAppTests" */;
+			buildPhases = (
+				181EA6601A1FAA68009E77E8 /* Sources */,
+				181EA6611A1FAA68009E77E8 /* Frameworks */,
+				181EA6621A1FAA68009E77E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181EA6661A1FAA68009E77E8 /* PBXTargetDependency */,
+			);
+			name = CRMAppTests;
+			productName = CRMAppTests;
+			productReference = 181EA6641A1FAA68009E77E8 /* CRMAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181EA6401A1FAA68009E77E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Weird Logics";
+				TargetAttributes = {
+					181EA6471A1FAA68009E77E8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					181EA6631A1FAA68009E77E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 181EA6471A1FAA68009E77E8;
+					};
+				};
+			};
+			buildConfigurationList = 181EA6431A1FAA68009E77E8 /* Build configuration list for PBXProject "CRMApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181EA63F1A1FAA68009E77E8;
+			productRefGroup = 181EA6491A1FAA68009E77E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181EA6471A1FAA68009E77E8 /* CRMApp */,
+				181EA6631A1FAA68009E77E8 /* CRMAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181EA6461A1FAA68009E77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181EA65A1A1FAA68009E77E8 /* Main.storyboard in Resources */,
+				181EA6A11A1FBE52009E77E8 /* x2.png in Resources */,
+				181EA65F1A1FAA68009E77E8 /* LaunchScreen.xib in Resources */,
+				181EA6A01A1FBE52009E77E8 /* x1.png in Resources */,
+				181EA6A21A1FBE52009E77E8 /* x3.png in Resources */,
+				181EA65C1A1FAA68009E77E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181EA6621A1FAA68009E77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181EA6441A1FAA68009E77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181EA6A61A1FC65D009E77E8 /* UIView+Toast.m in Sources */,
+				181EA6AF1A1FE858009E77E8 /* UITableView+NXEmptyView.m in Sources */,
+				181EA6811A1FB28C009E77E8 /* LoginPage.m in Sources */,
+				181EA6A91A1FCCA2009E77E8 /* HomePage.m in Sources */,
+				181EA6511A1FAA68009E77E8 /* AppDelegate.m in Sources */,
+				181EA64E1A1FAA68009E77E8 /* main.m in Sources */,
+				181EA6AC1A1FD5DA009E77E8 /* NewVisitPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181EA6601A1FAA68009E77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181EA66B1A1FAA68009E77E8 /* CRMAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181EA6661A1FAA68009E77E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181EA6471A1FAA68009E77E8 /* CRMApp */;
+			targetProxy = 181EA6651A1FAA68009E77E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181EA6581A1FAA68009E77E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181EA6591A1FAA68009E77E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181EA65D1A1FAA68009E77E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181EA65E1A1FAA68009E77E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181EA66C1A1FAA68009E77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		181EA66D1A1FAA68009E77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181EA66F1A1FAA68009E77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Weird Minds (C4626YRU5E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/apple/Downloads/parse-library-1.5.0",
+				);
+				INFOPLIST_FILE = CRMApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ca035fd-9c4c-4e4f-8907-869c17b38659";
+			};
+			name = Debug;
+		};
+		181EA6701A1FAA68009E77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Weird Minds (C4626YRU5E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/apple/Downloads/parse-library-1.5.0",
+				);
+				INFOPLIST_FILE = CRMApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ca035fd-9c4c-4e4f-8907-869c17b38659";
+			};
+			name = Release;
+		};
+		181EA6721A1FAA68009E77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRMAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMApp.app/CRMApp";
+			};
+			name = Debug;
+		};
+		181EA6731A1FAA68009E77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRMAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMApp.app/CRMApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181EA6431A1FAA68009E77E8 /* Build configuration list for PBXProject "CRMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181EA66C1A1FAA68009E77E8 /* Debug */,
+				181EA66D1A1FAA68009E77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181EA66E1A1FAA68009E77E8 /* Build configuration list for PBXNativeTarget "CRMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181EA66F1A1FAA68009E77E8 /* Debug */,
+				181EA6701A1FAA68009E77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181EA6711A1FAA68009E77E8 /* Build configuration list for PBXNativeTarget "CRMAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181EA6721A1FAA68009E77E8 /* Debug */,
+				181EA6731A1FAA68009E77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181EA6401A1FAA68009E77E8 /* Project object */;
+}
